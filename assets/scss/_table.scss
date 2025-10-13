@@ -1,0 +1,43 @@
+.table {
+  table-layout: fixed;
+  margin-bottom: auto;
+  thead {
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  th {
+    vertical-align: top;
+  }
+
+  th,
+  td {
+    &:nth-child(2) {
+      max-width: 70px;
+    }
+    &:last-child {
+      text-align: right;
+      padding-right: 0px;
+    }
+  }
+
+  td {
+    padding: 16px 0px;
+    &:nth-child(2) {
+      white-space: nowrap;
+    }
+  }
+
+  th {
+    padding: 0px 0px 10px 0px;
+  }
+}
+
+.empty {
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.5;
+  display: block;
+  text-align: center;
+  margin-bottom: auto;
+}

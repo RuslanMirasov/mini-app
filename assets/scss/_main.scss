@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+  background: var(--white);
+  width: 100%;
+  max-width: 332px;
+  margin: auto;
+  padding: 12px 10px;
+  border-radius: 33px;
+  z-index: 1;
+  margin-bottom: auto;
+  flex: 1;
+  margin-top: 30px;
+
+  .title {
+    margin-top: 10px;
+  }
+
+  &.main--bordered {
+    border-radius: 0px;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 5px;
+      left: 0px;
+    }
+
+    &:before {
+      bottom: 100%;
+      background: url("../img/svg/border-top.svg") repeat-x;
+      background-size: 10px 5px;
+    }
+
+    &:after {
+      top: 100%;
+      background: url("../img/svg/border-bottom.svg") repeat-x;
+      background-size: 10px 5px;
+    }
+  }
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  font-size: 25px;
+  line-height: 1;
+  background: var(--red);
+  color: var(--white);
+  border-radius: 30px;
+  padding: 6px 30px;
+  text-transform: uppercase;
+  font-family: var(--font);
+  font-weight: 900;
+}

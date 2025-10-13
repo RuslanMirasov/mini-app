@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 332px;
+  margin: 20px auto -50px auto;
+
+  height: 38px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: var(--white);
+  border-radius: 33px;
+  padding: 0px 20px;
+}

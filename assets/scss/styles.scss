@@ -1,0 +1,17 @@
+:root {
+  --font: "5kasansdesign", system-ui, -apple-system;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #737373;
+  --grey-light: #c1c1c1;
+  --red: #ff0000;
+}
+
+@import "fonts";
+@import "reset";
+@import "header";
+@import "main";
+@import "table";
+@import "form";
+@import "pagination";
+@import "footer";

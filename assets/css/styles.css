@@ -252,21 +252,21 @@ ol {
   outline: none;
 }
 .form input::-moz-placeholder {
-  color: var(--grey);
+  color: var(--grey-light);
   opacity: 1;
   -moz-transition: 0.3s;
   transition: 0.3s;
   text-transform: uppercase;
 }
 .form input:-ms-input-placeholder {
-  color: var(--grey);
+  color: var(--grey-light);
   opacity: 1;
   -ms-transition: 0.3s;
   transition: 0.3s;
   text-transform: uppercase;
 }
 .form input::placeholder {
-  color: var(--grey);
+  color: var(--grey-light);
   opacity: 1;
   transition: 0.3s;
   text-transform: uppercase;
